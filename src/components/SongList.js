@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react'
-
+import React from 'react'
 
 const SongList = ({songs}) => {
 
@@ -10,7 +9,6 @@ const SongList = ({songs}) => {
                 <li>{song["im:name"].label}</li>
                 <li>{song["im:artist"].label}</li>
             </ul>
-
         )
     })
 

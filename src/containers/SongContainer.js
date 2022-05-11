@@ -16,7 +16,6 @@ const SongContainer = () => {
         .catch(err => console.error);
     }
 
-
     return (
         <div className="main-container">
             <SongList songs={songs}/>
