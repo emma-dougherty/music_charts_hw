@@ -6,9 +6,15 @@ function App() {
   return (
 
     <div className="App">
-      <SongContainer />
+      <header>
+        The Official Chart Top 40
+      </header>
+      <div className='page'>
+        <div className='content'>
+            <SongContainer />
+        </div>
+      </div>
     </div>
-
   );
 }
 

@@ -1,0 +1,27 @@
+/* .songs-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1.5em;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 10px;
+} */
+
+    .song-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+        grid-gap: 16px;
+    }
+    /* .position { */
+        /* grid-column-start: 1;
+        grid-column-end: 2;
+    } */
+    /* display: grid;
+    grid-template-columns: auto 1fr;
+    }
+     */
+    
